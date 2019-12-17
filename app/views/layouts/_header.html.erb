@@ -16,7 +16,7 @@
 
       <!-- Right Nav Section -->
       <ul class="right">
-        <%if signed_in?%>
+        <% if user_signed_in? %>
           <li>
             <%= link_to cart_path do%>
               <i class="fi-shopping-cart"></i> My Cart (<span class="cart-count"><%=current_user.cart_count%></span>)

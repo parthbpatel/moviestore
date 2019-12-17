@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'foundation-rails'
 gem 'coffee-rails', '~> 5.0'
 gem 'devise'
+gem 'redis', '~> 4.1', '>= 4.1.3'
+gem 'hiredis', '~> 0.6.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
