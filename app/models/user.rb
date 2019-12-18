@@ -6,5 +6,10 @@ class User < ApplicationRecord
 
   def cart_count
     $redis.scard "cart#{id}"
+  end
+
+  def get_cart_movies
+    cart_ids = $redis.smembers "cart#{id}"
+    Movie.find(cart_ids)
   end               
 end
