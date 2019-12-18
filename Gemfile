@@ -23,6 +23,9 @@ gem 'devise'
 gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'hiredis', '~> 0.6.3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'braintree', '~> 2.100'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'gon', '~> 6.3', '>= 6.3.2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
